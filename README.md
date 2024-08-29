@@ -1,4 +1,4 @@
-# Trabajando con Binary Large Object (BLOB) en PostgreSQL con MonoDevelop
+# Trabajando con Binary Large Object (BLOB) en PostgreSQL con C#
 
 <p align="justify">
 En la actualidad existen aplicaciones que además de almacenar y procesar datos basados en caracteres, requieren también almacenar y procesar archivos de gran tamaño de tipo binario o  texto, tales archivos como los multimedia (gráficas, imágenes, audio, vídeo) o los generados por programas de oficina (documentos, presentaciones, hojas de calculo), para estos casos en el estándar SQL están definidos dos tipos de datos para guardar grandes cantidades de información: el CLOB (CHARACTER LARGE OBJECT) que se utiliza para información de tipo texto  y el BLOB (BINARY LARGE OBJECT) que se utiliza para información de tipo binario, para este último PostgreSQL proporciona dos formas de trabajar: una es mediante las funciones lo_import() y lo_export() incorporadas dentro del servidor de base de datos y la otra mediante columnas del tipo de dato bytea, que pueden ser utilizadas por las aplicaciones para el almacenamiento de archivos binarios.
