@@ -12,8 +12,10 @@ A continuación creamos un proyecto de consola, utilizando el lenguaje de progra
 Este proyecto se compone de tres clases: Main, Book y BooksManagerDAC. Main es la clase principal, Book es el objeto que representa un registro en la base de datos y  BooksManagerDAC es donde se encuentra toda la funcionalidad para la comunicación con la base de datos.
 </p>
 <p align="justify">
-Al ejecutar la clase dentro de Monodevelop o bien desde una terminal, la aplicación realiza las siguientes acciones: solicita los datos de un libro para almacenar, muestra los registros que ya están almacenados y solicita una llave primaria o id para obtener el registro.
+Al ejecutar la aplicación realiza las siguientes acciones: solicita los datos de un libro para almacenar, muestra los registros que ya están almacenados y solicita una llave primaria o id para obtener el registro.
 </p>
+<div><strong>Fig 1. Mostrando las opciones.</strong></div>
+<img src="images/fig0.png" width="802" height="280" alt="">
 <p>
 Ahora la explicación de las funcionalidades que se encuentran en la clase BooksManagerDAC
 Mediante el método  GetPhoto() la aplicación toma un archivo del sistema de archivos y lo convierte a una matriz de bytes 
@@ -60,13 +62,11 @@ static void RetrieveImage(NpgsqlDataReader reader
    }
 }
 </pre>
-<div><strong></strong></div>
-<img src="images/fig0.png" width="802" height="280" alt="">
-<div><strong></strong></div>
+<div><strong>Fig 2. Creando un registro con un archivo binario. (Ejemplo una imagen)</strong></div><br/>
 <img src="images/fig1.png" width="994" height="386" alt="">
-<div><strong></strong></div>
+<div><strong>Fig 3. Consultando la tabla para ver los registros y obtener el archivo binario.</strong></div><br/>
 <img src="images/fig2.png" width="790" height="506" alt="">
-<div><strong></strong></div>
+<div><strong></strong>Fig 4. Vista de la tabla con los registros desde PgAdmin.</div><br/>
 <img src="images/fig3.png" width="689" height="601" alt="">
 <h3>Conclusiones</h3>
 <p align="justify">
