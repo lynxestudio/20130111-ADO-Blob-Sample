@@ -60,6 +60,14 @@ static void RetrieveImage(NpgsqlDataReader reader
    }
 }
 </pre>
+<div><strong></strong></div>
+<img src="images/fig0.png" width="802" height="280" alt="">
+<div><strong></strong></div>
+<img src="images/fig1.png" width="994" height="386" alt="">
+<div><strong></strong></div>
+<img src="images/fig2.png" width="790" height="506" alt="">
+<div><strong></strong></div>
+<img src="images/fig3.png" width="689" height="601" alt="">
 <h3>Conclusiones</h3>
 <p align="justify">
 PostgreSQL es una de las mas completas base de datos relacionales de fuente abierta (open source)  , el soporte al almacenamiento de archivos binarios hace que sea considerada como una buena alternativa de almacenamiento que combinado con las capacidades de :NET tenemos una propuesta sólida para  la construcción de aplicaciones empresariales.
